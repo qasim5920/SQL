@@ -69,3 +69,8 @@ select * from customer
 
 
 select * from product where productStock=(Select productStock from customer where product=2)
+
+
+
+
+
