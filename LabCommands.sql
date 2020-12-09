@@ -57,11 +57,11 @@ foreign key  (product) references product(productId)
 )
 
 
-insert into product values (1,'pizza',60,120)
-insert into product values (2,'burger',10,180)
-insert into product values (3,'shwarma',20,190)
-insert into product values (5,'toco',50,1220)
-insert into product values (6,'donot',22,833)
+insert into product values (1,'Pizza',60,120)
+insert into product values (2,'Burger',10,180)
+insert into product values (3,'Shwarma',20,190)
+insert into product values (5,'Taco',50,1220)
+insert into product values (6,'Donut',22,833)
 
 
 insert into customer values (10,'abdukl',2,2222)
